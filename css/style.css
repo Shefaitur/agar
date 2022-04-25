@@ -1,0 +1,819 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    width:1320px;
+    margin: 0 auto;
+
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;   
+}
+
+/* ==================================
+        header part start
+===================================== */
+
+#header{
+background:rgb(40, 46, 59,.8);
+padding:20px 0;
+position: absolute;
+width:100%;
+z-index: 1;
+
+}
+#header .line{
+    width:200%;
+    height:2px;
+    background:rgba(229, 229, 229,.5);
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translate(-50%);
+
+
+}
+#header .main{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#header .logo{
+width:50%;
+
+}
+#header .info{
+ width:50%;
+
+
+}
+
+#header .info .information{
+   width: 100px;
+   height: 20px;
+   
+   border-right:2px solid rgba(229, 229, 229,.5) ;
+   color:#fff;
+   text-align:center;
+   font-family: 'DM Sans', sans-serif;
+   font-size:20px;
+   font-weight:400;
+
+}
+#header .info .information:last-child{
+    border-right: 0;
+}
+
+#header .bottom-header{
+     
+     
+}
+
+#header .menu-item{
+    width:50%;
+    
+}
+#header .Social-icons{
+    width:50%;
+    text-align: right;
+}
+#header .menu-item ul{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+   font-size:20px;
+   font-weight:400;
+   color:#fff;
+   
+}
+#header .menu-item ul li{
+    margin-right: 20px;
+   
+}
+#header .menu-item ul li{
+
+    position: relative;
+}
+#header .menu-item li{
+    position:absolute;
+    top:0px;
+    Right:12px;
+}
+
+
+#header .Social-icons i{
+    font-size:20px;
+    color:#fff;
+    margin:10px;
+    
+
+}
+#header .Social-icons .srch{
+   margin-left: 35px;
+
+}
+/* ==================================
+        header part End
+===================================== */
+
+/* ==================================
+        baner part start
+===================================== */
+#baner-part{
+    height: 500px;
+    background:url(../images/baner.jpg) no-repeat center;
+     background-size: cover;
+     padding-top: 340px;
+     position: relative;
+      
+
+}
+#baner-part .shape-top1{
+    margin-left: 75px;
+    position:absolute;
+    margin-top: -44px
+}
+
+#baner-part .shape-top2{
+    position: absolute;
+    margin-left: 484px;
+    margin-top: 400px;
+}
+#baner-part .shape-top3{
+    position: absolute;
+    margin-left: 111px;
+    margin-top: 430px;
+}
+#baner-part .shape-top4{
+    position: absolute;
+    margin-left: 561px;
+    margin-top: -37px;
+}
+
+#baner-part .shape-top5{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 400px;
+}
+
+#baner-part .shape-top9{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -37px;
+}
+
+
+#baner-part h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px ;
+    font-weight: 700;
+    color:#fff;
+    width: 555px;
+}
+#baner-part p{
+    font-family: 'DM Sans', sans-serif;
+   font-size:18px;
+   font-weight:400;
+   color:#fff;
+   width: 610px;
+   margin-top: 30px;
+   
+}
+#baner-part a{
+    font-family: 'DM Sans', sans-serif;
+   font-size:18px;
+   font-weight:500;
+   color:#fff;
+   background: rgb(30, 192, 208);
+   display: inline-block;
+   padding: 20px;
+   border-radius: 50px;
+   margin-top: 68px;
+  
+}
+#baner-part .round{
+    width:130px;
+    height:130px;
+    border: 1px solid rgb(30, 192, 208);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:34%;
+    right: 30%;
+     
+}
+#baner-part .inner-round{
+    width:105px;
+    height:105px;
+   background:rgb(30, 192, 208) ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#baner-part .inner-round i{
+    font-size: 30px;
+    color:#fff
+}
+
+
+/* ==================================
+        baner part End
+===================================== */
+
+
+/* ==================================
+        about part start
+===================================== */
+#about-part{
+    margin-top: 80px;
+}
+#about-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#about-part .left{
+    width: 40%;  
+    position:relative;
+}
+
+#about-part .left .about-img-1{
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    
+   
+}
+#about-part .left .bottom-img{
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    max-width: 350px;
+    width: 100%;
+}
+#about-part .left .dots{
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    z-index: -1;
+}
+
+#about-part .left .round{
+    width: 90px;
+    height:90px;
+    border: 1px solid rgb(30, 192, 208);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 73px;
+    right: -135px;
+}
+#about-part .left .inner-round{
+    width:75px;
+    height:75px;
+   background:rgb(30, 192, 208) ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-part .left .inner-round i{
+    font-size: 20px;
+    color:#fff
+}
+
+
+
+#about-part .right{
+    width: 60%;
+    margin: 0 0 0 190px;
+   
+}
+#about-part .right .title{
+    position: relative;
+}
+#about-part .right .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size:24px;
+    font-weight:500;
+    color:rgb(30, 192, 208);
+    
+}
+#about-part .right .title .line{
+    width: 53px;
+    height: 2px;
+    background: black;
+}
+
+#about-part .right .title .round{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius:50%;
+    position: absolute;
+    bottom: -6px;
+    left: 20px;
+}
+#about-part .right h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px ;
+    font-weight: 700;
+    width: 500px;
+   margin-top: 18px;
+}
+#about-part .right p{
+    font-family: 'DM Sans', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    width: 500px;
+    margin-top:30px;
+    color: rgb(0, 0, 0, .6);
+   
+}
+
+#about-part .right li{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px ;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+#about-part a{
+    font-family: 'DM Sans', sans-serif;
+   font-size:18px;
+   font-weight:500;
+   color:#fff;
+   background: rgb(30, 192, 208);
+   display: inline-block;
+   padding: 20px;
+   border-radius: 50px;
+   margin-top: 68px;
+}
+
+/* ==================================
+        about part End
+===================================== */
+
+/* ==================================
+        partner part start
+===================================== */
+#pratner-part{
+   Margin-top:195px;
+}
+#pratner-part .main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#pratner-part .title{
+    text-align: center;
+}
+#pratner-part .title{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px ;
+    font-weight: 700;
+}
+#pratner-part .title span{
+    color:rgb(30, 192, 208);
+    border-bottom:1px solid rgb(30, 192, 208);
+}
+#pratner-part img{
+    filter: grayscale(100%);
+    transition: .4s;
+}
+#pratner-part img:hover{
+    filter:grayscale(0%);
+    transform: scale(110%);
+
+}
+
+
+/* ==================================
+        partner part End
+===================================== */
+
+/* ==================================
+        services part start
+===================================== */
+#Services-part{
+    margin-top: 80px;
+}
+#Services-part .title{
+    position: relative;
+    text-align: center;
+}
+#Services-part .title h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size:24px;
+    font-weight:500;
+    color:rgb(30, 192, 208);
+    
+}
+#Services-part .title .line{
+    width: 53px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+#Services-part .title .round{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius:50%;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+#Services-part h2{
+    text-align:center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px ;
+     margin-top: 30px;
+
+}
+#Services-part .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+}
+#Services-part .item{
+width:23%;
+height: 200px;
+margin-top: 20px;
+background: transparent;
+text-align: center;
+padding: 50 0 px;
+border-radius: 30px;
+transition: .4s;
+
+}
+#Services-part .item h4{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px ;
+    font-weight: 700;
+}
+#Services-part .item i{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:rgb(30, 192, 208);
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+   transition: .4s;
+}
+#Services-part .item:hover {
+    background:rgb(30, 192, 208) ;
+    color:#fff    
+}
+#Services-part .item:hover i{
+    background: #fff;
+    color:black;
+}
+#Services-part .botton{
+    text-align: center;
+    margin-top:50px ;
+}
+#Services-part .botton a{
+    
+    font-family: 'DM Sans', sans-serif;
+   font-size:18px;
+   font-weight:500;
+   color:#fff;
+   background: rgb(30, 192, 208);
+   display: inline-block;
+   padding: 20px;
+   border-radius: 50px;
+   margin-top: 68px;
+   margin-bottom: 250px;
+}
+
+/* ==================================
+        services part End
+===================================== */
+
+/* ==================================
+    Choose part start
+===================================== */
+
+    #Choose-part .main{
+    display: flex;
+    }
+    
+    #Choose-part .left{
+        width: 44%;
+       
+    } 
+    #Choose-part .title{
+        position: relative;
+        
+    }
+    #Choose-part .title h3{
+        font-family: 'DM Sans', sans-serif;
+        font-size:24px;
+        font-weight:500;
+        color:rgb(30, 192, 208);
+        
+    }
+    #Choose-part .title .line{
+        width: 53px;
+        height: 2px;
+        background: black;
+        
+    }
+    
+    #Choose-part .title .round{
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border: 2px solid black;
+        border-radius:50%;
+        position: absolute;
+        bottom: -6px;
+        left: 25px;
+        transform: translate(-50%);
+    
+    }
+    #Choose-part .left h2{
+        font-family: 'Philosopher', sans-serif;
+        font-size: 36px;
+        font-weight: 400; 
+        margin-top: 30px;
+        width: 450px;
+    
+    }
+    
+    #Choose-part .left p{
+        font-family: 'DM Sans', sans-serif;
+        font-size:18px;
+        font-weight:500;
+        margin-top: 30px;
+        line-height: 1.889;
+    
+    }
+    #Choose-part .left .box {
+        width: 75%;
+        padding: 20px;
+        border-left: 5px solid rgb(30, 192, 208);
+        margin: 30px;
+        background: #fff;
+        -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
+    }
+    #Choose-part .left .box h5{
+        font-family: 'Philosopher', sans-serif;
+        font-size: 18px;
+        font-weight: 700; 
+        position: relative;
+        
+    }
+    
+    
+    #Choose-part .left .box h5 i{
+        color: rgb(30, 192, 208);
+        position: absolute;
+        top:0;
+        right:0;
+    
+    }
+    #Choose-part .left .box p{
+        font-family: 'DM Sans', sans-serif;
+        font-size:16px;
+        font-weight:400;
+    }
+    
+    #Choose-part .right{
+        width:50%;
+      
+    }
+    
+    
+    /* ==================================
+        Choose part End
+    ===================================== */
+    
+    /* ==================================
+        project part start
+    ===================================== */ 
+    #Project-part {
+        margin-top: 80px;
+    }
+
+    #Project-part .title{
+        position: relative;
+        text-align: center;
+    }
+    #Project-part .title{
+        font-family: 'DM Sans', sans-serif;
+        font-size:24px;
+        font-weight:500;
+        color:rgb(30, 192, 208);
+        
+    }
+    #Project-part .title .line{
+        width: 53px;
+        height: 2px;
+        background: black;
+        margin: 0 auto;
+    }
+    
+    #Project-part .title .round{
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border: 2px solid black;
+        border-radius:50%;
+        position: absolute;
+        bottom: -6px;
+        left: 50%;
+        transform: translate(-50%);
+    
+    }
+    
+    #Project-part h2{
+        text-align:center;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 36px ;
+         margin-top: 30px;
+         width: 650px;
+         margin:0 auto;
+         margin-top: 30px;
+    
+    }
+  #Project-part .item ul{
+      display: flex;
+      
+  }
+    /* ==================================
+        project part End
+    ===================================== */
+
+/* ==================================
+        caunter part start
+===================================== */
+
+#Caunter-part{
+    margin-top: 80px;
+    background: url(../images/counter-bg-1-1.jpg)no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#Caunter-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#Caunter-part .main .item{
+    width:23%;
+    text-align: center;
+}
+
+#Caunter-part .main .item h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px ;
+    font-weight: 700;
+    color:#fff;
+}
+#Caunter-part .main .item p{
+    
+    font-family: 'DM Sans', sans-serif;
+   font-size:20px;
+   font-weight:500;
+   color:#fff
+   
+}
+
+
+
+/* ==================================
+        caunter part End
+===================================== */
+
+
+/* ==================================
+        Testimonials part start
+===================================== */
+#Testimonials-part .main{
+    display:flex;
+    margin-top: 100px;
+}
+
+#Testimonials-part .left{
+    width:65%;
+}
+
+#Testimonials-part .right{
+    width:35%;
+    position: relative;
+}
+#Testimonials-part .right h3{
+    color: rgb(30, 192, 208);
+    font-family: 'DM Sans', sans-serif;
+    font-size:24px;
+    font-weight:500;
+    margin-bottom: 10px;
+    
+}
+#Testimonials-part .right .line{
+    width:53px;
+    height: 2px;
+    background: black;
+}
+#Testimonials-part .right .round{
+    width:10px;
+    height:10px;
+    background: #fff;
+    border: 2px solid#000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    top: 35px;
+    left: 20px;
+    
+}
+
+#Testimonials-part .right h2{
+    font-family:'Philosopher', sans-serif;
+    font-size: 36px ;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#Testimonials-part .right p{
+    color:#505050;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+#Testimonials-part .bottom{
+    width:10%;
+    height:auto;
+    
+    
+}
+
+
+/* ==================================
+        Testimonials part End
+===================================== */
+
+
+/* ==================================
+        contact part start
+===================================== */
+#contact-part{
+    margin-top: 80px;
+    background: url(../images/cta-bg-1-1.jpg)no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+#contact-part h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px ;
+    font-weight: 700;
+    color:#fff;
+    width:1000px;
+    margin:0 auto;
+   
+}
+
+
+#contact-part .botton a{
+    
+    font-family: 'DM Sans', sans-serif;
+   font-size:18px;
+   font-weight:500;
+   color:#fff;
+   background: rgb(30, 192, 208);
+   display: inline-block;
+   padding: 20px;
+   border-radius: 50px;
+   margin-top: 68px;
+}
+
+
+/* ==================================
+        contact part End
+===================================== */
+
+    
